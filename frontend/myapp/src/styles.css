@@ -1,0 +1,234 @@
+
+#headerbar {
+    height: 45em;
+    background:url(https://media.istockphoto.com/photos/know-ill-find-something-i-like-here-picture-id694044976?k=6&m=694044976&s=612x612&w=0&h=XPxsFIQ5pTVUMC60_BFA3u4v4o_pKmFV4AfBlf17d9U=);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position-y: -10em;
+}
+
+
+#navul li:hover{
+    background-color: black;
+    color: gold;
+}
+#navul{
+    float: right;
+    margin: 1em 8em;
+}
+
+.hero-container{
+    margin: 18em 0em;
+    float: left;
+    text-align: center;
+    width: 100vw;
+}
+
+.hero-container h1{
+    color: white;
+    font-size: 2.5em;
+    margin:auto;
+    margin-top: -2.8em;
+    margin-bottom: -2.8em;
+    color: black;
+    background-color:white;
+    opacity:0.9;
+    width:500px;
+}
+
+.hero-container h2{
+    margin: 3.9em 0;
+    font-size: 2.0em;
+    color: gold;
+    text-decoration: overline black;
+    background-color: black;
+    opacity: 0.7;
+
+}
+
+.hero-getstarted, .hero-explore, .button{
+    background:rgb(22, 22, 22);
+    color: gold;
+    font-size: 1em;
+    font-weight: 300;
+    border: 1px solid black;
+    padding: 10px 40px;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.button:hover, .hero-getstarted:hover, .hero-explore:hover{
+    background:rgb(51, 51, 51);
+    color: gold;
+    border: 1px solid black;
+}
+
+.hero-container button:active{
+    background-color: rgb(19, 19, 19);
+}
+
+.about-table, .service-table{
+	margin: auto;
+}
+
+.about-table th{
+	padding: 30px;
+}
+
+#caption{
+	font-size: 1.2em;
+	color: white;
+	background-color:black;
+	padding: 10px;
+	margin-top: -10px;
+	opacity: 0.8;
+}
+
+.portfolio-section{
+    margin-top: 8em;
+}
+
+#registerid {
+    width: 500px;
+    margin: auto;
+}
+
+.contact{
+    margin-top: 2em;
+}
+
+#contactid form{
+	width: 70%;
+	margin: auto;
+	padding: 20px;
+}
+
+#contactid th{
+	width: 50%;
+}
+
+#exampleEmailInput, #exampleRecipientInput{
+	width: 90%;
+	padding: 10px;
+	border: none;
+	background-color: lightgray;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#exampleMessage{
+	width: 93%;
+	padding: 10px;
+	border: none;
+	background-color: lightgray;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+#submitbutton{
+    background:rgb(22, 22, 22);
+    color: gold;
+    font-size: 1em;
+    font-weight: 300;
+    border: 1px solid black;
+}
+
+#submitbutton:hover{
+    background:rgb(51, 51, 51);
+    color: gold;
+    border: 1px solid black;  
+}
+
+#footerid{
+    height: 4em;
+    clear: both;
+    color: white;
+    text-align: center;
+    background-color: rgb(39, 39, 39);
+    padding-top: 20px;
+}
+
+#footerid a{
+    text-decoration: none;
+    color: gold;
+}
+
+img[alt="dropdown"]{display: none;}
+
+@media only screen and (max-width: 830px) {
+#navul{
+    display: none;
+    width: 12em;
+    background-color: rgba(214, 214, 214, 0.253);
+    text-align: left;
+    position: absolute;
+    right: -4.3em;
+    top: 0.6em;
+
+}
+
+#nav img[alt="dropdown"]{
+    display: block;
+    height: 5em;
+    float: right;
+}
+
+#nav{
+    position: relative;
+}
+
+
+
+#nav:hover ul{
+    display: block;
+}
+
+#headerbar{
+    height: 55em;
+    background-size:100%;
+    background-position-y: 0em;
+}
+
+
+
+.portfolio-section{
+    width: 40em;
+    margin: 5em auto;
+}
+
+img[alt="portfolio"]{
+    margin-top: 2em;
+}
+}
+
+
+@media only screen and (max-width: 421px){
+  
+  img[alt="description"]{
+    margin-left:1.5em;
+  }
+    #headerbar{
+        background:url(https://i.ibb.co/ZTXDrkC/pexels-photo-997443.jpg);
+        height: 45em;
+        background-size:cover;
+        background-position-y: 0em;
+    }
+
+    .eight{
+        margin: 4em 0em;
+        padding-left: 0.5em;
+    }
+
+    .portfolio-section{
+        width: 100%;
+        margin: 5em auto;
+    }
+
+  
+    .hero-container h2{
+        margin: 3.2em 0;
+        font-size: 2.5em;
+        background-color: black;
+    }
+    
+}
